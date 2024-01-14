@@ -1,0 +1,147 @@
+
+@font-face {
+    font-family: DigitalDisco-Thin;
+    src: url(DigitalDisco-Thin.ttf) format('truetype');
+}
+
+body{
+	background-image:url(Images/game_bg.png);
+    background-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+img {
+	position: absolute;
+	margin-left: 15%;
+display:inline-block;
+  height:100%;
+}
+
+p {
+    font-family: 'DigitalDisco-Thin';
+   margin: 0;
+}
+
+.text {
+    padding: 360px 10px 0px 10px;
+}
+
+button{
+  margin-top:20%;
+  font-family: 'DigitalDisco-Thin';
+
+}
+
+button, button:hover, button:focus, button:active {
+  text-decoration: none;
+  color: #555;
+}
+
+
+button{
+  border: 1px solid RGB(1, 63, 102);
+  margin-right: 10px;
+  border-radius: 3px;
+  display: inline;
+  margin-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background: #f6f6f6;
+  background: -moz-linear-gradient(top, #f6f6f6 0%, #ffffff 6%, #fffdfe 12%, #fbf9fa 18%, #f8f7f5 41%, #f7f3f0 47%, #f8f3ef 82%, #e7e0d8 94%, #dad3c9 100%);
+  background: -webkit-linear-gradient(top, #f6f6f6 0%, #ffffff 6%, #fffdfe 12%, #fbf9fa 18%, #f8f7f5 41%, #f7f3f0 47%, #f8f3ef 82%, #e7e0d8 94%, #dad3c9 100%);
+  background: linear-gradient(to bottom, #f6f6f6 0%, #ffffff 6%, #fffdfe 12%, #fbf9fa 18%, #f8f7f5 41%, #f7f3f0 47%, #f8f3ef 82%, #e7e0d8 94%, #dad3c9 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#dad3c9', GradientType=0);
+}
+
+
+button:hover,
+button:focus {
+  outline: 0;
+  border: 2px solid #B9D0F0;
+}
+
+button:active {
+  background: #dad3c9;
+  background: -moz-linear-gradient(top, #dad3c9 0%, #e7e0d8 6%, #f8f3ef 18%, #f7f3f0 53%, #f8f7f5 59%, #fbf9fa 82%, #fffdfe 88%, #ffffff 94%, #f6f6f6 100%);
+  background: -webkit-linear-gradient(top, #dad3c9 0%, #e7e0d8 6%, #f8f3ef 18%, #f7f3f0 53%, #f8f7f5 59%, #fbf9fa 82%, #fffdfe 88%, #ffffff 94%, #f6f6f6 100%);
+  background: linear-gradient(to bottom, #dad3c9 0%, #e7e0d8 6%, #f8f3ef 18%, #f7f3f0 53%, #f8f7f5 59%, #fbf9fa 82%, #fffdfe 88%, #ffffff 94%, #f6f6f6 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#dad3c9', endColorstr='#f6f6f6', GradientType=0);
+}
+
+.clear {
+  height: 10px;
+}
+
+li{
+    margin: auto;
+}
+
+
+ul{
+	list-style-type: none;
+	display:inline-block;
+}
+
+
+character{
+z-index: -1000;   
+}
+
+.bag {
+    visibility:hidden;
+    z-index: 8;
+}
+
+.hands {
+    visibility:hidden;
+    z-index: 7;
+}
+
+
+.jacket {
+    visibility:hidden;
+    z-index: 6;
+}
+
+.dress {
+    visibility:hidden;
+    z-index: 5;
+}
+
+.shirt{
+	visibility:hidden;
+  z-index: 4;
+}
+
+.pant{
+	visibility:hidden;
+  z-index: 3;
+	}
+
+.shoes {
+    visibility:hidden;
+    z-index: 2;
+}
+
+.socks {
+    visibility:hidden;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
